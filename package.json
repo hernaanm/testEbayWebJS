@@ -1,0 +1,23 @@
+{
+  "name": "testebay",
+  "version": "1.0.0",
+  "description": "ebayTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "HernanMateika",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/register": "^7.11.5",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/cucumber-framework": "^6.5.0",
+    "@wdio/junit-reporter": "^6.5.1",
+    "@wdio/local-runner": "^6.5.2",
+    "@wdio/selenium-standalone-service": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "cucumber": "^7.0.0-rc.0",
+    "webdriverio": "^6.5.2"
+  }
+}
